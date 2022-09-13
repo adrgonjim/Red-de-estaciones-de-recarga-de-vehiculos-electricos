@@ -1,6 +1,6 @@
 # Red-de-estaciones-de-recarga-de-vehiculos-electricos
 Modelo desarrollado en OpenDSS y basado en el proyecto SIMTRAVEL de un sistema eléctrico anillado.
-El sistema permite simular el impacto de diferentes distribuciones de puntos de recarga y paneles fotovoltaicos en un pequeño sistema de 17 centros de transformación anillados entre sí.
+El modelo permite simular el impacto de diferentes distribuciones de puntos de recarga y paneles fotovoltaicos en un pequeño sistema de 17 centros de transformación anillados entre sí.
 
 ### Casos de estudio
 1. Caso 1. Una estación situada en el punto central de la ciudad con 36 puntos de recarga sin paneles fotovoltaicos.
