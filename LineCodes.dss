@@ -1,0 +1,6 @@
+New Linecode.RH5Z1_4 nphases=3 r1=0.04 x1=0.0285 units=km !MT sub wire 240 18/30 kV. 4 paralel
+New Linecode.RH5Z1 nphases=3 r1=0.160 x1=0.114 units=km !MT sub wire 240 18/30 kV
+New Linecode.XZ1 nphases=3 r1=0.160 x1=0.085 units=km !BT sub wire 240 0,6/1 kV
+New Linecode.XZ1_3 nphases=3 r1=0.053 x1=0.028 units=km !BT sub wire 240 0,6/1 kV 3 paralel
+New Linecode.XZ1_4 nphases=3 r1=0.04 x1=0.02 units=km !BT sub wire 240 0,6/1 kV 4 paralel
+New Linecode.RZ nphases=3 r1=0.264 x1=0.080 units=km !BT aer wire 150 0,6/1 kV

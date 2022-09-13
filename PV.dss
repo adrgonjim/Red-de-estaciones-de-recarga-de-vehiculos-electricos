@@ -1,0 +1,43 @@
+// *********************** CURVES *****************************
+New XYCURVE.PVST npts=4 xarray=[0 25 75 100] yarray=[1.2 1.0 0.8 0.6]							
+New XYCURVE.EFF npts=4 xarray=[.1 .2 .4 1.0]  yarray=[.86 .9 .93 .97]							
+New Loadshape.IRRAD npts=24 interval=1 mult=[0 0 0 0 0 0 .1 .2 .3 .5 .8 .9 1.0 1.0 .99 .9 .7 .4 .1 0 0 0 0 0]							
+New Tshape.TEMP npts=24 interval=1 temp=[25, 25, 25, 25, 25, 25, 25, 25, 35, 40, 45, 50 60 60 55 40 35 30 25 25 25 25 25 25]													
+
+// *********************** PV DEFINITION *****************************
+New PVSystem.PV1a phases=3 bus1=BT1a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV1b phases=3 bus1=BT1b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV2a phases=3 bus1=BT2a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV2b phases=3 bus1=BT2b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV3a phases=3 bus1=BT3a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV3b phases=3 bus1=BT3b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV4a phases=3 bus1=BT4a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV4b phases=3 bus1=BT4b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV5a phases=3 bus1=BT5a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV5b phases=3 bus1=BT5b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV6a phases=3 bus1=BT6a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV6b phases=3 bus1=BT6b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV7a phases=3 bus1=BT7a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV7b phases=3 bus1=BT7b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV8a phases=3 bus1=BT8a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV8b phases=3 bus1=BT8b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV9a phases=3 bus1=BT9a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV9b phases=3 bus1=BT9b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV10a phases=3 bus1=BT10a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV10b phases=3 bus1=BT10b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV11a phases=3 bus1=BT11a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV11b phases=3 bus1=BT11b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV12a phases=3 bus1=BT12a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV12b phases=3 bus1=BT12b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV13a phases=3 bus1=BT13a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV13b phases=3 bus1=BT13b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV14a phases=3 bus1=BT14a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV14b phases=3 bus1=BT14b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV15a phases=3 bus1=BT15a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV15b phases=3 bus1=BT15b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP
+New PVSystem.PV16a phases=3 bus1=BT16a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV16b phases=3 bus1=BT16b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV17a phases=3 bus1=BT17a kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV17b phases=3 bus1=BT17b kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV17c phases=3 bus1=BT17c kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																
+New PVSystem.PV17d phases=3 bus1=BT17d kV=0.4 PF=1 kVA=7.5 irrad=0.8 Pmpp=500 effcurve=EFF P-TCurve=PVST Daily=IRRAD TDaily=TEMP																																											

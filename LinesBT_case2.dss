@@ -1,0 +1,24 @@
+// *********************** EV LINES *****************************
+New Line.LineBT1 Bus1=BT13 Bus2=BT13a length=0.016 units=km Linecode=XZ1_3							
+New Line.LineBT2 Bus1=BT14 Bus2=BT14a length=0.011 units=km Linecode=XZ1_3							
+New Line.LineBT3 Bus1=BT15 Bus2=BT15a length=0.016 units=km Linecode=XZ1_3							
+New Line.LineBT4 Bus1=BT16 Bus2=BT16a length=0.011 units=km Linecode=XZ1_3							
+
+// *********************** LOAD LINES *****************************	
+New Line.LineL1 Bus1=BT1 Bus2=BT1L length=0.105 units=km Linecode=XZ1							
+New Line.LineL2 Bus1=BT2 Bus2=BT2L length=0.105 units=km Linecode=XZ1							
+New Line.LineL3 Bus1=BT3 Bus2=BT3L length=0.105 units=km Linecode=XZ1							
+New Line.LineL4 Bus1=BT4 Bus2=BT4L length=0.105 units=km Linecode=XZ1							
+New Line.LineL5 Bus1=BT5 Bus2=BT5L length=0.105 units=km Linecode=XZ1							
+New Line.LineL6 Bus1=BT6 Bus2=BT6L length=0.105 units=km Linecode=XZ1							
+New Line.LineL7 Bus1=BT7 Bus2=BT7L length=0.105 units=km Linecode=XZ1							
+New Line.LineL8 Bus1=BT8 Bus2=BT8L length=0.105 units=km Linecode=XZ1							
+New Line.LineL9 Bus1=BT9 Bus2=BT9L length=0.105 units=km Linecode=XZ1							
+New Line.LineL10 Bus1=BT10 Bus2=BT10L length=0.105 units=km Linecode=XZ1							
+New Line.LineL11 Bus1=BT11 Bus2=BT11L length=0.105 units=km Linecode=XZ1							
+New Line.LineL12 Bus1=BT12 Bus2=BT12L length=0.105 units=km Linecode=XZ1							
+New Line.LineL13 Bus1=BT13 Bus2=BT13L length=0.105 units=km Linecode=XZ1							
+New Line.LineL14 Bus1=BT14 Bus2=BT14L length=0.105 units=km Linecode=XZ1							
+New Line.LineL15 Bus1=BT15 Bus2=BT15L length=0.105 units=km Linecode=XZ1							
+New Line.LineL16 Bus1=BT16 Bus2=BT16L length=0.105 units=km Linecode=XZ1							
+New Line.LineL17 Bus1=BT17 Bus2=BT17L length=0.105 units=km Linecode=XZ1

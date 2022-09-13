@@ -1,0 +1,20 @@
+// *********************** CIRCUIT *****************************
+New Circuit.ModeloTFM
+
+! Make the source stiff with small impedance
+~ basekv=132 pu=1.0001 phases=3 bus1=SourceBus r1=0 x1=0.001 r0=0 x0=0.001
+
+// *********************** ADDITIONAL FILES *****************************
+Redirect  LineCodes.dss 
+Redirect  LinesMT.dss
+Redirect  LinesBT_case3.dss
+Redirect  Transformers.dss
+Redirect  Loadshapes.dss 
+Redirect  Loads.dss     ! Balanced Loads
+Redirect  EV_case3.dss        ! Electric Vehicle Chargers
+Redirect  PV.dss        ! Photovoltaic Panel. UNCOMMENT TO ENABLE!!!
+
+// *********************** VOLTAGE BASES *****************************
+Set voltagebases=[132, 25, 0.4]
+Calcvoltagebases
+

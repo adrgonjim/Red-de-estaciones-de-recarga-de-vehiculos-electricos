@@ -1,0 +1,21 @@
+/ *********************** CIRCUIT *****************************
+New Circuit.ModeloTFM
+
+! Make the source stiff with small impedance
+~ basekv=132 pu=1.0001 phases=3 bus1=SourceBus r1=0 x1=0.001 r0=0 x0=0.001
+
+// *********************** ADDITIONAL FILES *****************************
+Redirect  LineCodes.dss 
+Redirect  LinesMT.dss
+Redirect  LinesBT_case1.dss
+Redirect  Transformers.dss
+Redirect  Loadshapes.dss 
+Redirect  Loads.dss     ! Balanced Loads
+Redirect  EV_case1.dss        ! Electric Vehicle Charger Model
+!Redirect  PV.dss        ! Photovoltaic Panel Model. UNCOMMENT TO ENABLE!!!
+
+// *********************** VOLTAGE BASES *****************************
+! Let DSS estimate the voltage bases
+Set voltagebases=[132, 25, 0.4]
+Calcvoltagebases     ! This also establishes the bus list
+

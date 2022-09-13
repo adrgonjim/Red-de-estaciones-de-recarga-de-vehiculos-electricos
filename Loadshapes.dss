@@ -1,0 +1,18 @@
+// *********************** EV CURVES *****************************	
+New Loadshape.Curve_EV1 npts=24 interval=1 mult=(file=Curve_EV1.txt)							
+New Loadshape.Curve_EV2 npts=24 interval=1 mult=(file=Curve_EV2.txt)							
+New Loadshape.Curve_EV3 npts=24 interval=1 mult=(file=Curve_EV3.txt)							
+New Loadshape.Curve_EV4 npts=24 interval=1 mult=(file=Curve_EV4.txt)							
+New Loadshape.Curve_EV5 npts=24 interval=1 mult=(file=Curve_EV5.txt)							
+New Loadshape.Curve_EV6 npts=24 interval=1 mult=(file=Curve_EV6.txt)							
+New Loadshape.Curve_EV7 npts=24 interval=1 mult=(file=Curve_EV7.txt)
+New Loadshape.Curve_EV8 npts=24 interval=1 mult=(file=Curve_EV8.txt)
+New Loadshape.Curve_EV9 npts=24 interval=1 mult=(file=Curve_EV9.txt)
+							
+// ******************* PER MINUTE CURVES INTO 1 HOUR (FOR 1 EV AND ULTRA FAST CHARGERS) ******************* 	
+New Loadshape.Curve_EV_High1 npts=24 interval=1 mult=(0,0,0,0,0,0,0,0,0,0,0,0,0,0.51,0,0,0,0,0,0,0,0,0,0)							
+New Loadshape.Curve_EV_High2 npts=24 interval=1 mult=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.38,0,0,0,0,0)							
+New Loadshape.Curve_EV_High3 npts=24 interval=1 mult=(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.51,0,0)
+
+// *********************** V2G AND G2V TEST *****************************	
+New Loadshape.CurveTest npts=24 interval=1 mult=(1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1)

@@ -1,0 +1,488 @@
+Clear
+
+Compile (master_case3.dss)
+
+// *********************** MT LINE MONITORS *****************************
+New Monitor.mLine0 element=Line.Line0 mode=0							
+New Monitor.mLine1 element=Line.Line1 mode=0							
+New Monitor.mLine2 element=Line.Line2 mode=0							
+New Monitor.mLine3 element=Line.Line3 mode=0							
+New Monitor.mLine4 element=Line.Line4 mode=0							
+New Monitor.mLine5 element=Line.Line5 mode=0							
+New Monitor.mLine6 element=Line.Line6 mode=0							
+New Monitor.mLine7 element=Line.Line7 mode=0							
+New Monitor.mLine8 element=Line.Line8 mode=0							
+New Monitor.mLine9 element=Line.Line9 mode=0							
+New Monitor.mLine10 element=Line.Line10 mode=0							
+New Monitor.mLine11 element=Line.Line11 mode=0							
+New Monitor.mLine12 element=Line.Line12 mode=0							
+New Monitor.mLine13 element=Line.Line13 mode=0							
+New Monitor.mLine14 element=Line.Line14 mode=0							
+New Monitor.mLine15 element=Line.Line15 mode=0							
+New Monitor.mLine16 element=Line.Line16 mode=0							
+New Monitor.mLine17 element=Line.Line17 mode=0							
+New Monitor.mLine18 element=Line.Line18 mode=0							
+New Monitor.mLine19 element=Line.Line19 mode=0
+							
+// *********************** BT LINE MONITORS *****************************
+New Monitor.mLineBT1 element=Line.LineBT1 mode=0 !FROM TRANSFORMER1
+New Monitor.mLineBT2 element=Line.LineBT2 mode=0 !FROM TRANSFORMER1
+
+New Monitor.mLineBT3 element=Line.LineBT3 mode=0 !FROM TRANSFORMER2
+New Monitor.mLineBT4 element=Line.LineBT4 mode=0 !FROM TRANSFORMER2
+
+New Monitor.mLineBT7 element=Line.LineBT7 mode=0 !FROM TRANSFORMER4
+New Monitor.mLineBT8 element=Line.LineBT8 mode=0 !FROM TRANSFORMER4
+
+New Monitor.mLineBT9 element=Line.LineBT9 mode=0 !FROM TRANSFORMER5
+New Monitor.mLineBT10 element=Line.LineBT10 mode=0 !FROM TRANSFORMER5
+
+New Monitor.mLineBT11 element=Line.LineBT11 mode=0 !FROM TRANSFORMER6
+New Monitor.mLineBT12 element=Line.LineBT12 mode=0 !FROM TRANSFORMER6
+
+New Monitor.mLineBT13 element=Line.LineBT13 mode=0 !FROM TRANSFORMER7
+New Monitor.mLineBT14 element=Line.LineBT14 mode=0 !FROM TRANSFORMER7
+
+New Monitor.mLineBT15 element=Line.LineBT15 mode=0 !FROM TRANSFORMER8
+New Monitor.mLineBT16 element=Line.LineBT16 mode=0 !FROM TRANSFORMER8
+
+New Monitor.mLineBT24 element=Line.LineBT25 mode=0 !FROM TRANSFORMER12
+
+New Monitor.mLineBT25 element=Line.LineBT25 mode=0 !FROM TRANSFORMER13
+New Monitor.mLineBT26 element=Line.LineBT26 mode=0 !FROM TRANSFORMER13
+
+New Monitor.mLineBT27 element=Line.LineBT27 mode=0 !FROM TRANSFORMER14
+New Monitor.mLineBT28 element=Line.LineBT28 mode=0 !FROM TRANSFORMER14
+ 
+New Monitor.mLineBT33 element=Line.LineBT33 mode=0 !FROM TRANSFORMER17
+New Monitor.mLineBT34 element=Line.LineBT34 mode=0 !FROM TRANSFORMER17
+New Monitor.mLineBT35 element=Line.LineBT35 mode=0 !FROM TRANSFORMER17
+New Monitor.mLineBT36 element=Line.LineBT36 mode=0 !FROM TRANSFORMER17
+
+// *********************** TRANSFORMER MONITORS *****************************
+New Monitor.mTrafo1a element=Transformer.Transformer1 mode=0 terminal=1
+New Monitor.mTrafo1b element=Transformer.Transformer1 mode=0 terminal=2
+
+New Monitor.mTrafo2a element=Transformer.Transformer2 mode=0 terminal=1
+New Monitor.mTrafo2b element=Transformer.Transformer2 mode=0 terminal=2
+
+New Monitor.mTrafo3a element=Transformer.Transformer3 mode=0 terminal=1
+New Monitor.mTrafo3b element=Transformer.Transformer3 mode=0 terminal=2
+
+New Monitor.mTrafo4a element=Transformer.Transformer4 mode=0 terminal=1
+New Monitor.mTrafo4b element=Transformer.Transformer4 mode=0 terminal=2
+
+New Monitor.mTrafo5a element=Transformer.Transformer5 mode=0 terminal=1
+New Monitor.mTrafo5b element=Transformer.Transformer5 mode=0 terminal=2
+
+New Monitor.mTrafo6a element=Transformer.Transformer6 mode=0 terminal=1
+New Monitor.mTrafo6b element=Transformer.Transformer6 mode=0 terminal=2
+
+New Monitor.mTrafo7a element=Transformer.Transformer7 mode=0 terminal=1
+New Monitor.mTrafo7b element=Transformer.Transformer7 mode=0 terminal=2
+
+New Monitor.mTrafo8a element=Transformer.Transformer8 mode=0 terminal=1
+New Monitor.mTrafo8b element=Transformer.Transformer8 mode=0 terminal=2
+
+New Monitor.mTrafo9a element=Transformer.Transformer9 mode=0 terminal=1
+New Monitor.mTrafo9b element=Transformer.Transformer9 mode=0 terminal=2
+
+New Monitor.mTrafo10a element=Transformer.Transformer10 mode=0 terminal=1
+New Monitor.mTrafo10b element=Transformer.Transformer10 mode=0 terminal=2
+
+New Monitor.mTrafo11a element=Transformer.Transformer11 mode=0 terminal=1
+New Monitor.mTrafo11b element=Transformer.Transformer11 mode=0 terminal=2
+
+New Monitor.mTrafo12a element=Transformer.Transformer12 mode=0 terminal=1
+New Monitor.mTrafo12b element=Transformer.Transformer12 mode=0 terminal=2
+
+New Monitor.mTrafo13a element=Transformer.Transformer13 mode=0 terminal=1
+New Monitor.mTrafo13b element=Transformer.Transformer13 mode=0 terminal=2
+
+New Monitor.mTrafo14a element=Transformer.Transformer14 mode=0 terminal=1
+New Monitor.mTrafo14b element=Transformer.Transformer14 mode=0 terminal=2
+
+New Monitor.mTrafo15a element=Transformer.Transformer15 mode=0 terminal=1
+New Monitor.mTrafo15b element=Transformer.Transformer15 mode=0 terminal=2
+
+New Monitor.mTrafo16a element=Transformer.Transformer16 mode=0 terminal=1
+New Monitor.mTrafo16b element=Transformer.Transformer16 mode=0 terminal=2
+
+New Monitor.mTrafo17a element=Transformer.Transformer17 mode=0 terminal=1
+New Monitor.mTrafo17b element=Transformer.Transformer17 mode=0 terminal=2
+
+// *********************** EV MONITORS *****************************
+New Monitor.mEV1a element=Load.EV1a mode=0 						
+New Monitor.mEV1b element=Load.EV1b mode=0
+ 						
+New Monitor.mEV2a element=Load.EV2a mode=0 						
+New Monitor.mEV2b element=Load.EV2b mode=0 	
+					
+New Monitor.mEV3a element=Load.EV3a mode=0 						
+New Monitor.mEV3b element=Load.EV3b mode=0 
+						
+New Monitor.mEV4a element=Load.EV4a mode=0 						
+New Monitor.mEV4b element=Load.EV4b mode=0
+ 						
+New Monitor.mEV5a element=Load.EV5a mode=0 						
+New Monitor.mEV5b element=Load.EV5b mode=0 	
+					
+New Monitor.mEV6a element=Load.EV6a mode=0 						
+New Monitor.mEV6b element=Load.EV6b mode=0
+ 						
+New Monitor.mEV7a element=Load.EV7a mode=0 						
+New Monitor.mEV7b element=Load.EV7b mode=0 		
+				
+New Monitor.mEV8a element=Load.EV8a mode=0 						
+New Monitor.mEV8b element=Load.EV8b mode=0
+ 						
+New Monitor.mEV9a element=Load.EV9a mode=0 						
+New Monitor.mEV9b element=Load.EV9b mode=0
+ 						
+New Monitor.mEV10a element=Load.EV10a mode=0 							
+New Monitor.mEV10b element=Load.EV10b mode=0
+ 							
+New Monitor.mEV11a element=Load.EV11a mode=0 							
+New Monitor.mEV11b element=Load.EV11b mode=0
+ 							
+New Monitor.mEV12a element=Load.EV12a mode=0 							
+New Monitor.mEV12b element=Load.EV12b mode=0
+ 							
+New Monitor.mEV13a element=Load.EV13a mode=0 							
+New Monitor.mEV13b element=Load.EV13b mode=0 
+							
+New Monitor.mEV14a element=Load.EV14a mode=0 							
+New Monitor.mEV14b element=Load.EV14b mode=0
+ 							
+New Monitor.mEV15a element=Load.EV15a mode=0 							
+New Monitor.mEV15b element=Load.EV15b mode=0 
+							
+New Monitor.mEV16a element=Load.EV16a mode=0 							
+New Monitor.mEV16b element=Load.EV16b mode=0 
+							
+New Monitor.mEV17a element=Load.EV17a mode=0 							
+New Monitor.mEV17b element=Load.EV17b mode=0 							
+New Monitor.mEV17c element=Load.EV17c mode=0 							
+New Monitor.mEV17d element=Load.EV17d mode=0 
+
+// *********************** PV MONITORS *****************************
+new monitor.m1 PVSystem.PV1a 1 mode=1 ppolar=no
+new monitor.m2 PVSystem.PV1a 1
+
+// *********************** SOLVE *****************************
+solve  maxcontrol=100	
+set controlmode=static
+set mode=daily stepsize=1.0h number=24
+solve
+
+// *********************** EV PLOTING *****************************
+!Plot Monitor object=mEV1a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV1a channels=(9 11 13) 							
+!Plot Monitor object=mEV1b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV1b channels=(9 11 13) 
+							
+!Plot Monitor object=mEV2a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV2a channels=(9 11 13) 			
+!Plot Monitor object=mEV2b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV2b channels=(9 11 13) 
+						
+!Plot Monitor object=mEV3a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV3a channels=(9 11 13) 		
+!Plot Monitor object=mEV3b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV3b channels=(9 11 13) 	
+							
+!Plot Monitor object=mEV4a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV4a channels=(9 11 13) 			
+!Plot Monitor object=mEV4b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV4b channels=(9 11 13) 	
+						
+!Plot Monitor object=mEV5a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV5a channels=(9 11 13) 					
+!Plot Monitor object=mEV5b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV5b channels=(9 11 13) 	
+						
+!Plot Monitor object=mEV6a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV6a channels=(9 11 13) 						
+!Plot Monitor object=mEV6b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV6b channels=(9 11 13) 	
+						
+!Plot Monitor object=mEV7a channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV7a channels=(9 11 13) 				
+!Plot Monitor object=mEV7b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV7b channels=(9 11 13) 
+							
+!Plot Monitor object=mEV8a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV8a channels=(9 11 13) 						
+!Plot Monitor object=mEV8b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV8b channels=(9 11 13) 	
+						
+!Plot Monitor object=mEV9a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV9a channels=(9 11 13) 						
+!Plot Monitor object=mEV9b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV9b channels=(9 11 13) 	
+						
+!Plot Monitor object=mEV10a channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV10a channels=(9 11 13) 				
+!Plot Monitor object=mEV10b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV10b channels=(9 11 13) 
+						
+!Plot Monitor object=mEV11a channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV11a channels=(9 11 13) 				
+!Plot Monitor object=mEV11b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV11b channels=(9 11 13) 
+						
+!Plot Monitor object=mEV12a channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV12a channels=(9 11 13) 				
+Plot Monitor object=mEV12b channels=(1 3 5) bases=(230 230 230)	
+Plot Monitor object=mEV12b channels=(9 11 13)
+						
+!Plot Monitor object=mEV13a channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mEV13a channels=(9 11 13)					
+!Plot Monitor object=mEV13b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV13b channels=(9 11 13) 
+							
+!Plot Monitor object=mEV14a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV14a channels=(9 11 13) 						
+!Plot Monitor object=mEV14b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV14b channels=(9 11 13)
+						
+!Plot Monitor object=mEV15a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV15a channels=(9 11 13) 					
+!Plot Monitor object=mEV15b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV15b channels=(9 11 13) 
+							
+!Plot Monitor object=mEV16a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV16a channels=(9 11 13) 						
+!Plot Monitor object=mEV16b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV16b channels=(9 11 13) 
+							
+!Plot Monitor object=mEV17a channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV17a channels=(9 11 13) 					
+!Plot Monitor object=mEV17b channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV17b channels=(9 11 13) 					
+!Plot Monitor object=mEV17c channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mEV17c channels=(9 11 13) 						
+Plot Monitor object=mEV17d channels=(1 3 5) bases=(230 230 230)						
+Plot Monitor object=mEV17d channels=(9 11 13)
+																										
+// *********************** MT LINES PLOTING *****************************
+Plot Monitor object=mLine0 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine0 channels=(7 9 11)
+
+!Plot Monitor object=mLine1 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine1 channels=(7 9 11)
+
+!Plot Monitor object=mLine2 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine2 channels=(7 9 11)
+
+!Plot Monitor object=mLine3 channels=(1 3 5) bases=(14430 14430 14430)	
+Plot Monitor object=mLine3 channels=(7 9 11)
+
+!Plot Monitor object=mLine4 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine4 channels=(7 9 11)
+
+!Plot Monitor object=mLine5 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine5 channels=(7 9 11)
+
+!Plot Monitor object=mLine6 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine6 channels=(7 9 11)
+
+!Plot Monitor object=mLine7 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine7 channels=(7 9 11)
+
+!Plot Monitor object=mLine8 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine8 channels=(7 9 11)
+
+!Plot Monitor object=mLine9 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine9 channels=(7 9 11)
+
+!Plot Monitor object=mLine10 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine10 channels=(7 9 11)
+
+!Plot Monitor object=mLine11 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine11 channels=(7 9 11)
+
+!Plot Monitor object=mLine12 channels=(1 3 5) bases=(14430 14430 14430)	
+Plot Monitor object=mLine12 channels=(7 9 11)
+
+!Plot Monitor object=mLine13 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine13 channels=(7 9 11)
+
+!Plot Monitor object=mLine14 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine14 channels=(7 9 11)
+
+!Plot Monitor object=mLine15 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine15 channels=(7 9 11)
+							
+!Plot Monitor object=mLine16 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine16 channels=(7 9 11)
+
+!Plot Monitor object=mLine17 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine17 channels=(7 9 11)
+
+!Plot Monitor object=mLine18 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine18 channels=(7 9 11)
+							
+!Plot Monitor object=mLine19 channels=(1 3 5) bases=(14430 14430 14430)
+Plot Monitor object=mLine19 channels=(7 9 11)
+
+// *********************** BT LINES PLOTING *****************************
+!Plot Monitor object=mLineBT1 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT1 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT2 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT2 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT3 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT3 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT4 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT4 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT7 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT7 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT8 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT8 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT9 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT9 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT10 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT10 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT11 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT11 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT12 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT12 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT13 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT13 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT14 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT14 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT15 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT15 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT16 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT16 channels=(7 9 11)
+
+Plot Monitor object=mLineBT24 channels=(1 3 5) bases=(230 230 230)
+Plot Monitor object=mLineBT24 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT25 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT25 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT26 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT26 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT27 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT27 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT28 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT28 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT33 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT33 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT34 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT34 channels=(7 9 11)
+
+!Plot Monitor object=mLineBT35 channels=(1 3 5) bases=(230 230 230)
+!Plot Monitor object=mLineBT35 channels=(7 9 11)
+
+Plot Monitor object=mLineBT36 channels=(1 3 5) bases=(230 230 230)
+Plot Monitor object=mLineBT36 channels=(7 9 11)
+
+// *********************** TRANSFORMERS PLOTING *****************************
+!Plot Monitor object=mTrafo1a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo1a channels=(9 11 13)
+!Plot Monitor object=mTrafo1b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo1b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo2a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo2a channels=(9 11 13)
+!Plot Monitor object=mTrafo2b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo2b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo3a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo3a channels=(9 11 13)
+!Plot Monitor object=mTrafo3b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo3b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo4a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo4a channels=(9 11 13)
+!Plot Monitor object=mTrafo4b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo4b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo5a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo5a channels=(9 11 13)
+!Plot Monitor object=mTrafo5b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo5b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo6a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo6a channels=(9 11 13)
+!Plot Monitor object=mTrafo6b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo6b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo7a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo7a channels=(9 11 13)
+!Plot Monitor object=mTrafo7b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo7b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo8a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo8a channels=(9 11 13)
+!Plot Monitor object=mTrafo8b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo8b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo9a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo9a channels=(9 11 13)
+!Plot Monitor object=mTrafo9b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo9b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo10a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo10a channels=(9 11 13)
+!Plot Monitor object=mTrafo10b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo10b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo11a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo11a channels=(9 11 13)
+!Plot Monitor object=mTrafo11b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo11b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo12a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo12a channels=(9 11 13)
+!Plot Monitor object=mTrafo12b channels=(1 3 5) bases=(230 230 230)	
+Plot Monitor object=mTrafo12b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo13a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo13a channels=(9 11 13)
+!Plot Monitor object=mTrafo13b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo13b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo14a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo14a channels=(9 11 13)
+!Plot Monitor object=mTrafo14b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo14b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo15a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo15a channels=(9 11 13)
+!Plot Monitor object=mTrafo15b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo15b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo16a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo16a channels=(9 11 13)
+!Plot Monitor object=mTrafo16b channels=(1 3 5) bases=(230 230 230)	
+!Plot Monitor object=mTrafo16b channels=(9 11 13)
+
+!Plot Monitor object=mTrafo17a channels=(1 3 5) bases=(14430 14430 14430)
+!Plot Monitor object=mTrafo17a channels=(9 11 13)
+!Plot Monitor object=mTrafo17b channels=(1 3 5) bases=(230 230 230)	
+Plot Monitor object=mTrafo17b channels=(9 11 13)
+
+// *********************** PV PLOTING *****************************
+Plot monitor object= m1 channels=(1)
+Plot monitor object= m2 channels=(1) 
+Plot monitor object= m2 channels=(9)

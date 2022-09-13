@@ -1,0 +1,46 @@
+// *********************** CONVENTIONAL CHARGE *****************************
+!New Load.EV1a phases=1 Bus1=BT17a.1 kW=7.7 PF=1 kV=0.230 daily=Curve_EV8 Vminpu=0.9
+
+// *********************** SEMI-FAST CHARGE *****************************
+!New Load.EV1a phases=3 Bus1=BT17a kW=25 PF=1 kV=0.4 daily=Curve_EV5 Vminpu=0.9
+
+// *********************** FAST CHARGE *****************************	
+New Load.EV1a Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9
+New Load.EV1b Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9
+New Load.EV2a Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9
+New Load.EV2b Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV3a Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV3b Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV4a Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV4b Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV5a Bus1=BT17a kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV5b Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV6a Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV6b Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV7a Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV7b Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV8a Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV8b Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV9a Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV9b Bus1=BT17b kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV10a Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV10b Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV11a Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV11b Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV12a Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9							
+New Load.EV12b Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV13a Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV13b Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV14a Bus1=BT17c kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV14b Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV15a Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV15b Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV16a Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV16b Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV17a Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV17b Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV17c Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9					
+New Load.EV17d Bus1=BT17d kW=50 PF=1 kV=0.4 phases=3 daily=Curve_EV2 Vminpu=0.9
+	
+// *********************** ULTRA FAST CHARGE *****************************
+!New Load.EV1a phases=3 Bus1=BT17a kW=144 PF=1 kV=0.40 daily=Curve_EV6 Vminpu=0.9					

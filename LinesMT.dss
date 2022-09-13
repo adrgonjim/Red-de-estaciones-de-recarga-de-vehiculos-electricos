@@ -1,0 +1,23 @@
+New Line.Line0 Bus1=Bus799 Bus2=Bus2 length=1 units=km Linecode=RH5Z1_4					
+New Line.Line1 Bus1=Bus1 Bus2=Bus2 length=0.2 units=km Linecode=RH5Z1							
+New Line.Line2 Bus1=Bus1 Bus2=Bus13 length=0.095 units=km Linecode=RH5Z1							
+New Line.Line3 Bus1=Bus2 Bus2=Bus14 length=0.147 units=km Linecode=RH5Z1							
+New Line.Line4 Bus1=Bus3 Bus2=Bus7 length=0.168 units=km Linecode=RH5Z1							
+New Line.Line5 Bus1=Bus3 Bus2=Bus14 length=0.1 units=km Linecode=RH5Z1							
+New Line.Line6 Bus1=Bus4 Bus2=Bus13 length=0.142 units=km Linecode=RH5Z1							
+New Line.Line7 Bus1=Bus4 Bus2=Bus17 length=0.131 units=km Linecode=RH5Z1							
+New Line.Line8 Bus1=Bus5 Bus2=Bus6 length=0.131 units=km Linecode=RH5Z1							
+New Line.Line9 Bus1=Bus5 Bus2=Bus15 length=0.231 units=km Linecode=RH5Z1							
+New Line.Line10 Bus1=Bus6 Bus2=Bus13 length=0.142 units=km Linecode=RH5Z1							
+New Line.Line11 Bus1=Bus6 Bus2=Bus17 length=0.121 units=km Linecode=RH5Z1							
+New Line.Line12 Bus1=Bus7 Bus2=Bus8 length=0.142 units=km Linecode=RH5Z1							
+New Line.Line13 Bus1=Bus8 Bus2=Bus12 length=0.194 units=km Linecode=RH5Z1							
+New Line.Line14 Bus1=Bus8 Bus2=Bus16 length=0.184 units=km Linecode=RH5Z1							
+New Line.Line15 Bus1=Bus9 Bus2=Bus15 length=0.194 units=km Linecode=RH5Z1							
+New Line.Line16 Bus1=Bus9 Bus2=Bus16 length=0.116 units=km Linecode=RH5Z1							
+New Line.Line17 Bus1=Bus10 Bus2=Bus11 length=0.173 units=km Linecode=RH5Z1							
+New Line.Line18 Bus1=Bus10 Bus2=Bus15 length=0.131 units=km Linecode=RH5Z1							
+New Line.Line19 Bus1=Bus11 Bus2=Bus12 length=0.184 units=km Linecode=RH5Z1						
+							
+
+               

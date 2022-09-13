@@ -1,0 +1,26 @@
+// *********************** SINGLE-PHASE TEST *****************************
+!New Load.Load1 phases=1 Bus1=BT1L.1 kW=57.31 PF=0.8 kV=0.230 Vminpu=0.9
+
+// *********************** V2G AND G2V TEST *****************************
+!New Load.Load1 phases=1 Bus1=BT1L.1 kW=57.31 PF=0.8 kV=0.230 daily=CurveTest Vminpu=0.9	
+
+// *********************** LOAD ***************************** 
+New Load.Load1 phases=3 Bus1=BT1L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load2 phases=3 Bus1=BT2L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9							
+New Load.Load3 phases=3 Bus1=BT3L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9								
+New Load.Load4 phases=3 Bus1=BT4L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9								
+New Load.Load5 phases=3 Bus1=BT5L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9 							
+New Load.Load6 phases=3 Bus1=BT6L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load7 phases=3 Bus1=BT7L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load8 phases=3 Bus1=BT8L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load9 phases=3 Bus1=BT9L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load10 phases=3 Bus1=BT10L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load11 phases=3 Bus1=BT11L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load12 phases=3 Bus1=BT12L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load13 phases=3 Bus1=BT13L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load14 phases=3 Bus1=BT14L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load15 phases=3 Bus1=BT15L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9					
+New Load.Load16 phases=3 Bus1=BT16L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9						
+New Load.Load17 phases=3 Bus1=BT17L kW=57.31 PF=0.8 kV=0.4 conn=wye Vminpu=0.9
+													              
+
